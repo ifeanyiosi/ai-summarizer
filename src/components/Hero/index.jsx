@@ -10,7 +10,13 @@ const Hero = () => {
           <h1 className="font-bold font-inter text-[20px]">Ifeanyiosi</h1>
         </button>
 
-        <button type="button" className="black_btn" onClick={() => window.open("")}>
+        <button
+          type="button"
+          className="black_btn"
+          onClick={() =>
+            window.open("https://github.com/ifeanyiosi?tab=repositories")
+          }
+        >
           {" "}
           Github
         </button>
