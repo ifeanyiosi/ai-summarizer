@@ -17,13 +17,13 @@ const Hero = () => {
       </nav>
 
       <h1 className="head_text">
-        Paraphrase with <br className="max-md:hidden" />{" "}
+        Article Summarizer with <br className="max-md:hidden" />{" "}
         <span className="orange_gradient">A.I</span>
       </h1>
 
       <h2 className="desc">
-        This app lets you condense long articles into clear and concise
-        summaries, which can then be used by an AI for text paraphrasing.
+        This app lets you summarize long articles into clear and concise
+        summaries.
       </h2>
     </header>
   );
